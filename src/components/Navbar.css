@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 67px 128px 30px 128px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.navRight {
+  display: flex;
+  gap: 121px;
+}
+
+.navleft h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.colored {
+  color: #d434fe;
+}
+
+.navlink {
+  display: flex;
+  list-style: none;
+  gap: 56px;
+}
+
+.navlink li {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.register {
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 16px 52px;
+  border-radius: 4px;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+}
