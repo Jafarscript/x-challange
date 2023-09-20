@@ -21,21 +21,21 @@
     box-shadow: 51px -100px 220px 100px #903AFF;
 }
 
-.getTech {
-    position: relative;
-}
-
-.getTech h1 {
+h1 {
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
 }
 
-.getTech .creative {
+.tech{
+    position: relative;
+}
+
+.tech img {
     position: absolute;
     width: 53px;
     height: 73px;
-    right: 70px;
+    right: 30px;
     bottom: 70px;
 }
 
@@ -45,12 +45,17 @@
     font-weight: 700;
 }
 
+.hack_colored{ 
+    color: #d434fe;
+    position: relative;
+}
+
 .iconHack {
     position: absolute;
     display: flex;
     align-items: center;
-    right: -100px;
-    top: 35%;
+    top: 0;
+    right: -150px;
 }
 
 .participate {

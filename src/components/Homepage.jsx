@@ -5,19 +5,15 @@ const Homepage = () => {
   return (
     <div className="home">
      <div className="homeLeft">
-     <div className="getTech">
-        <h1>getlinked Tech</h1>
-        <span className="creative">
-          <img
+        <h1>getlinked <span className="tech">Tech <img
             src={require('../asset/Creative 1.png')}
             alt=""
-          />
-        </span>
-      </div>
+          /></span> 
+        </h1>
+        
+     
       <h1 className="hackathon">
-        Hackathon <span className="colored">1.0</span>
-      </h1>
-      <div className="iconHack">
+        Hackathon <span className="hack_colored">1.0  <div className="iconHack">
       <span>
           <img
             src={require('../asset/chain-9365116-7621444.png')}
@@ -30,7 +26,10 @@ const Homepage = () => {
             alt=""
           />
         </span>
-      </div>
+      </div></span>
+       
+      </h1>
+      
       <h2 className="participate">
         Participate in getlinked tech Hackathon 2023 stand a chance to win a Big
         prize
