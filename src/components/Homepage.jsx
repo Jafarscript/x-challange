@@ -5,7 +5,7 @@ const Homepage = () => {
   return (
     <div className="home">
      <div className="homeLeft">
-        <h1>getlinked <span className="tech">Tech <img
+        <h1 className="getLinked">getlinked <span className="tech">Tech <img
             src={require('../asset/Creative 1.png')}
             alt=""
           /></span> 
@@ -46,6 +46,9 @@ const Homepage = () => {
         <img src={require('../asset/man-wearing-smart-glasses-touching-virtual-screen 1.png')} alt="" className="man" />
         <img src={require('../asset/Image 1.png')} alt="" className="globe" />
      </div>
+     <h1 className="revolute">Igniting a Revolution in <span className="hr">HR Innovation<svg xmlns="http://www.w3.org/2000/svg" width="220" height="17" viewBox="0 0 255 17" fill="none">
+  <path d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke="#FF26B9" stroke-width="5"/>
+</svg></span></h1>
     </div>
   );
 };
