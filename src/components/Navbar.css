@@ -9,6 +9,7 @@
 .navRight {
   display: flex;
   gap: 121px;
+  align-items: center;
 }
 
 .navleft h1 {
