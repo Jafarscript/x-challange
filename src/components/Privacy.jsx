@@ -4,8 +4,7 @@ import "./Privacy.css";
 const Privacy = () => {
   return (
     <div className="privacy">
-      <h3>Privacy Policy and</h3>
-      <h3 className="colored">Terms</h3>
+      <h3>Privacy Policy and <br /><span className="colored">Terms</span></h3>
       <h5 className="update">Last updated on September 12, 2023</h5>
       <div className="priFlex">
       <div className="priLeft">
@@ -26,16 +25,17 @@ const Privacy = () => {
           <h4>Here are terms of our Standard License:</h4>
           <ul>
             <li>
-              <img src={require("../asset/list terms.png")} alt="" />
+              {/* <img src={require("../asset/list terms.png")} alt="" /> */}
               The Standard License grants you a non-exclusive right to navigate
               and register for our event
             </li>
             <li>
-              <img src={require("../asset/list terms.png")} alt="" />
+              {/* <img src={require("../asset/list terms.png")} alt="" /> */}
               You are licensed to use the item available at any free source
               sites, for your project developement
             </li>
           </ul>
+          <button className='register'>Read More</button>
         </div>
       </div>
       <div className="priRight">

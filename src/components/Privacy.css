@@ -1,5 +1,7 @@
 .privacy {
-    padding: 170px 200px;
+    padding: 170px 150px;
+    /* padding-left: 200px; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .privacy h3 {
@@ -19,6 +21,7 @@
     grid-template-columns: 4fr 1fr;
     margin-top: 30px;
     gap: 50px;
+    align-items: center;
     /* align-items: center; */
     /* place-items: center; */
 }
@@ -34,6 +37,8 @@
     border-radius: 5px;
     border: 1px solid #D434FE;
     padding: 60px 72px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bordered p {
@@ -46,12 +51,61 @@
     font-size: 16px;
     font-weight: 700;
     margin-top: 24px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .bordered h4{
     font-size: 14px;
     font-weight: 700;
     margin-top: 0px;
+    margin-bottom: 18px;
 }
-.priRight {}
+
+.bordered ul{
+    list-style: none;
+}
+.bordered ul li{
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 216.4%;
+    margin-left: 24px;
+    margin-bottom: 18px;
+}
+
+.bordered ul li::after{
+    position: absolute;
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-image: url('../asset//list\ terms.png');
+    top: 6px;
+    left: -24px;
+}
+.bordered button{
+    align-self: center;
+    margin-top: 10px;
+}
+
+/* .bordered u li img{
+    position: absolute;
+    left: 0;
+    top: 5px;
+} */
+.priRight {
+    /* justify-self: center; */
+    position: relative;
+    z-index: 10;
+}
+
+.priRight::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-image: url('../asset/Vector\ \(3\).png');
+    background-repeat: no-repeat;
+    bottom: 27%;
+    left: 60px;
+    z-index: -1;
+}
