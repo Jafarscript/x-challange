@@ -4,6 +4,7 @@ import Homepage from './components/Homepage';
 import Intro from './components/Intro';
 import Judge from './components/Judge';
 import Navbar from './components/Navbar';
+import Partner from './components/Partner';
 import Privacy from './components/Privacy';
 import Prize from './components/Prize';
 import Rules from './components/Rules';
@@ -18,6 +19,7 @@ function App() {
       <Judge />
       <FAQ />
       <Prize />
+      <Partner />
       <Privacy />
     </div>
   );

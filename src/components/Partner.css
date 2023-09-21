@@ -1,0 +1,82 @@
+.partner {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.01);
+}
+
+.partner h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.partner p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    width: 35%;
+    text-align: center;
+}
+
+.grid{
+    margin-top: 65px;
+    border-radius: 5px;
+    border: 1px solid #D434FE;
+    width: 100%;
+}
+
+.logoGrid{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 100px;
+}
+
+.topgrid, .bottomgrid{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6{
+    position: relative;
+    align-self: center;
+}
+
+.image1::after{
+    position: absolute;
+    content: '';
+    width: 257.298px;
+    height: 4px;
+    background-color: #D434FE;
+    bottom: -20px;
+    right: -80px;
+}
+
+
+.image5::after{
+    position: absolute;
+    content: '';
+    width: 257.298px;
+    height: 4px;
+    background-color: #D434FE;
+    top: -64px;
+    left: -10px;
+}
+
+.image6::after{
+    position: absolute;
+    content: '';
+    width: 257.298px;
+    height: 4px;
+    background-color: #D434FE;
+    top: -64px;
+    left: -10px;
+}
+
