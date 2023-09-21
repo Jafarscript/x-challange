@@ -92,7 +92,7 @@
     left: 50%;
     top: 50%;
     background: #903AFF;
-    box-shadow: 100px -150px 300px 85px #903AFF;
+    box-shadow: 100px -10px 500px 150px #903AFF;
     z-index: 1;
 }
 
@@ -106,11 +106,11 @@
 
 .globe {
     position: absolute;
-    top: 100px;
-    left: 0;
+    top: 120px;
+    left: 20px;
     object-fit: cover;
     z-index: 100;
-    /* transform: scale(0.8); */
+    transform: scale(0.9);
 }
 
 .countdown {

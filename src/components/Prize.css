@@ -1,0 +1,93 @@
+.prize {
+    padding: 150px 150px;
+    padding-top: 75px;
+    padding-left: 125px;
+}
+
+.prizeTop {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: end;
+}
+
+
+.prizeTop h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.prizeTop p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+}
+
+.prizeMain {
+    display: flex;
+    margin-top: 83px;
+    justify-content: space-between;
+}
+
+.hackPrize {
+    display: flex;
+    gap: 30px;
+    align-self: flex-end;
+}
+
+.hackPrize div {
+    border-radius: 8px;
+    border: 1px solid #903AFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 212px;
+    justify-content: end;
+    align-items: center;
+}
+
+.hackPrize div h4{
+    font-size: 32px;
+    font-weight: 700;
+}
+.hackPrize div h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hackPrize div h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.snd img, .trd img {
+    position: absolute;
+    top: -80px;
+    left: 20px;
+}
+
+.fst img{
+    position: absolute;
+    top: -150px;
+    left: -40px;
+}
+
+.fst {
+    background: rgba(144, 58, 255, 0.12);
+    height: 290px;
+    padding-bottom: 33px;
+}
+
+
+
+.snd {
+    background: rgba(212, 52, 254, 0.12);
+    height: 263px;
+    padding-bottom: 33px;
+}
+
+.trd {
+    background: rgba(212, 52, 254, 0.12);
+    height: 263px;
+    padding-bottom: 33px;
+}
