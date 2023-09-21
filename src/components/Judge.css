@@ -1,0 +1,49 @@
+.judge {
+    display: flex;
+    padding: 150px 100px;
+    padding-left: 50px;
+    padding-top: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    gap: 50px;
+}
+
+.judgeleft {
+    align-self: end;
+    position: relative;
+    z-index: 1;
+}
+
+.judgeleft::before{
+    position: absolute;
+    content: ' ';
+    width: 134px;
+    height: 134px;
+    background: linear-gradient(270deg, #8F01FE 0%, #FF2674 97.24%);
+    top: -30px;
+    left: 90px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.judgeRight h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.judgeRight p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+}
+
+.judgeRight p span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.judgeRight button{
+    margin-top: 50px;
+}
