@@ -8,6 +8,7 @@ import Partner from './components/Partner';
 import Privacy from './components/Privacy';
 import Prize from './components/Prize';
 import Rules from './components/Rules';
+import Timeline from './components/Timeline';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Rules />
       <Judge />
       <FAQ />
+      <Timeline />
       <Prize />
       <Partner />
       <Privacy />
