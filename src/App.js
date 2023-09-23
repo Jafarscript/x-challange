@@ -1,5 +1,6 @@
 import './App.css';
 import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 import Homepage from './components/Homepage';
 import Intro from './components/Intro';
 import Judge from './components/Judge';
@@ -23,6 +24,7 @@ function App() {
       <Prize />
       <Partner />
       <Privacy />
+      <Footer />
     </div>
   );
 }

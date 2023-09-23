@@ -103,9 +103,19 @@
     content: '';
     height: 100%;
     width: 100%;
-    background-image: url('../asset/Vector\ \(3\).png');
+    background-image: url('../asset/VectorLock.png');
     background-repeat: no-repeat;
     bottom: 27%;
     left: 60px;
     z-index: -1;
+}
+
+@media(max-width: 850px){
+    .privacy{
+        padding: 50px;
+        text-align: center;
+    }
+    .priFlex{
+        grid-template-columns: 1fr;
+    }
 }

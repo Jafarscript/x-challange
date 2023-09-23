@@ -6,7 +6,7 @@ const Intro = () => {
     <div className="intro">
       <img src={require("../asset/the big idea 1.png")} alt="" />
       <div className="intro_message">
-        <h3>Introduction to getlinked <span className="colored">tech Hackathon 1.0</span></h3>
+        <h3>Introduction to getlinked <br /><span className="colored">tech Hackathon 1.0</span></h3>
         <p>
           Our tech hackathon is a melting pot of visionaries, and its purpose is
           as clear as day: to shape the future. Whether you're a coding genius,

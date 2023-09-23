@@ -1,4 +1,10 @@
 .App{
   background: #150E28;
   color: #fff;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

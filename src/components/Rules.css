@@ -48,3 +48,14 @@
     box-shadow: 50px -100px 300px 100px #903AFF;
     z-index: -1;
 }
+
+@media(max-width: 850px){
+    .rule{
+        padding: 50px;
+        flex-direction: column-reverse;
+    }
+
+    .rules{
+        text-align: center;
+    }
+}

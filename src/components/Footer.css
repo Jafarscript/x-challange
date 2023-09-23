@@ -1,0 +1,106 @@
+.footer {
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 12rem;
+}
+
+.text-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 50%; */
+}
+
+.text-cover h3 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text-cover h2 {
+    margin-bottom: 5px;
+}
+
+.usePolicy {
+    justify-self: end;
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.flinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.flinks a {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.useful {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.followText {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footerContact {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.footerContact h2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footerContact span,
+.footerContact address {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+
+.copyright{
+    font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}

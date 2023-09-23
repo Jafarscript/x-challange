@@ -17,6 +17,7 @@
     padding-top: 200px;
     padding-left: 128px;
     position: relative;
+    z-index: 10;
 }
 
 .homeLeft::before{
@@ -25,6 +26,7 @@
     height: 0px;
     width: 0px;
     left: 50%;
+    z-index: 0;
     background: #903AFF;
     box-shadow: 51px -100px 220px 100px #903AFF;
 }
@@ -146,4 +148,64 @@
     bottom: -15px;
     left: 10px;
     /* width: 95%; */
+}
+
+@media(max-width: 1300px){
+    .homeLeft{
+        padding-left: 100px;
+    }
+    .getLinked{
+        font-size: 40px;
+    }
+    .tech img{
+        width: 30px;
+        height: 50px;
+        right: 10px;
+        bottom: 35px;
+    }
+    .hackathon{
+        font-size: 40px;
+    }
+    .iconHack{
+        transform: scale(0.7);
+        top: -20px;
+        right: -130px;
+    }
+    .man{
+        /* transform: scale(0.7); */
+    }
+    .globe{
+        /* transform: scale(0.7); */
+        left: -20px;
+    }
+    .homeRight{
+        padding-top: 100px;
+    }
+
+    .homeRight::after{
+        box-shadow: 100px 0px 200px 150px #903AFF;
+    }
+}
+
+@media(max-width: 850px){
+    .home{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .homeRight::after{
+        box-shadow: none;
+    }
+    .homeLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .homeLeft::before{
+        left: 50px;
+    }
+    .participate{
+        text-align: center;
+    }
 }

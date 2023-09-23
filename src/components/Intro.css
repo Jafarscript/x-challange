@@ -19,3 +19,16 @@
     font-weight: 700;
     line-height: 27.5px;
 }
+
+@media(max-width: 850px){
+    .intro{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .intro_message{
+        text-align: center;
+    }
+    .intro_message h3{
+        font-size: 20px;
+    }
+}

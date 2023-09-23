@@ -89,3 +89,8 @@
     gap: 50px;
 }
 
+@media(max-width: 850px){
+    .grid{
+        padding: 140px 180px;
+    }
+}
