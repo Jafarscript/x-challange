@@ -58,4 +58,12 @@
     .rules{
         text-align: center;
     }
+
+    .rule img{
+        max-width: 50vh;
+    }
+
+    .rules h3{
+        font-size: 20px;
+    }
 }

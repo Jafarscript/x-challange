@@ -58,6 +58,12 @@
     .judgeleft{
         align-self: center;
     }
+    .judgeleft img{
+        max-width: 50vh;
+    }
+    .judgeleft::before{
+        display: none;
+    }
     .judgeRight{
         text-align: center;
     }

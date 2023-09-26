@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     padding-bottom: 0;
+    /* align-items: center; */
 }
 
 .home::before{
@@ -172,11 +173,11 @@
         right: -130px;
     }
     .man{
-        /* transform: scale(0.7); */
+        transform: scale(0.7);
     }
     .globe{
-        /* transform: scale(0.7); */
-        left: -20px;
+        transform: scale(0.7);
+        left: 60px;
     }
     .homeRight{
         padding-top: 100px;
@@ -187,13 +188,22 @@
     }
 }
 
-@media(max-width: 850px){
+@media(max-width: 1000px){
     .home{
         flex-direction: column;
         padding: 0px;
+        padding-top: 50px;
+        gap: 100px;
     }
     .homeRight::after{
         box-shadow: none;
+    }
+    .revolute{
+        position: initial;
+        right: 0;
+        top: 0;
+        text-align: center;
+        order: 1;
     }
     .homeLeft{
         display: flex;
@@ -201,11 +211,58 @@
         justify-content: center;
         align-items: center;
         padding-left: 0px;
+        padding-top: 0px;
+        order: 2;
     }
     .homeLeft::before{
         left: 50px;
     }
+    .hackathon{
+        display: flex;
+        align-items: center;
+    }
+    .iconHack{
+        position: initial;
+        display: inline;
+        top: 0;
+        right: 0;
+    }
+    .iconHack img{
+        width: 40px;
+        height: 40px;
+    }
     .participate{
         text-align: center;
+    }
+    .homeRight{
+        order: 3;
+        padding-top: 0px;
+    }
+    .globe{
+        top: -10px;
+    }
+}
+
+@media(max-width: 550px){
+    .home{
+        padding: 0px;
+        padding-top: 50px;
+        justify-content: center;
+    }
+    .man{
+        transform: scale(0.45);
+    }
+    .globe{
+        transform: scale(0.4);
+        left: -150px;
+    }
+    .revolute{
+        font-size: 20px;
+    }
+
+    .hr svg{
+        /* bottom: -15px;
+        left: -10px; */
+        width: 90%;
     }
 }

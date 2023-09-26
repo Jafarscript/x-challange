@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    align-items: end;
+    align-items: flex-end;
 }
 
 
@@ -32,8 +32,9 @@
 
 .hackPrize {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     align-self: flex-end;
+    text-align: center;
 }
 
 .hackPrize div {
@@ -43,8 +44,8 @@
     display: flex;
     flex-direction: column;
     width: 212px;
-    justify-content: end;
-    align-items: center;
+    justify-content: flex-end;
+    /* align-items: center; */
 }
 
 .hackPrize div h4 {
@@ -64,34 +65,39 @@
 
 .snd img,
 .trd img {
-    position: absolute;
+    /* position: absolute;
     top: -80px;
-    left: 20px;
+    left: 20px; */
+    transform: translateY(-50%);
 }
 
 .fst img {
-    position: absolute;
+    /* position: absolute;
     top: -150px;
-    left: -40px;
+    left: -40px; */
+    transform: translateY(-50%) scale(1.2);
 }
 
 .fst {
     background: rgba(144, 58, 255, 0.12);
-    height: 290px;
+    /* height: 290px; */
     padding-bottom: 33px;
+    transform: scale(1);
 }
 
 
 
 .snd {
     background: rgba(212, 52, 254, 0.12);
-    height: 263px;
+    /* height: 263px; */
+    transform: scale(0.9);
     padding-bottom: 33px;
 }
 
 .trd {
     background: rgba(212, 52, 254, 0.12);
-    height: 263px;
+    /* height: 263px; */
+    transform: scale(0.9);
     padding-bottom: 33px;
 }
 
@@ -133,5 +139,8 @@ height: 125.671px;
 
     .prizeTop p{
         width: 100%;
+    }
+    .prizeImg img{
+        max-width: 50vh;
     }
 }

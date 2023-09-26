@@ -20,6 +20,12 @@
     line-height: 27.5px;
 }
 
+@media(max-width: 1300px){
+    .intro{
+        padding: 50px;
+    }
+}
+
 @media(max-width: 850px){
     .intro{
         flex-direction: column;
@@ -30,5 +36,8 @@
     }
     .intro_message h3{
         font-size: 20px;
+    }
+    .intro img{
+        max-width: 50vh;
     }
 }
