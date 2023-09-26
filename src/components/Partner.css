@@ -91,6 +91,20 @@
 
 @media(max-width: 850px){
     .grid{
-        padding: 140px 180px;
+        padding: 50px;
     }
+
+    .grid img{
+        transform: scale(0.6);
+    }
+    .topgrid{
+        gap: 5px;
+    }
+    .bottomgrid{
+        gap: 5px;
+    }
+    .lines{
+        gap: 40px;
+    }
+   
 }
