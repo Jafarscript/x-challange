@@ -41,3 +41,9 @@
         max-width: 50vh;
     }
 }
+
+@media(max-width:550px){
+    .intro img{
+        max-width: 40vh;
+    }
+}

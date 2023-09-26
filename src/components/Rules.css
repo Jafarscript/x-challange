@@ -67,3 +67,9 @@
         font-size: 20px;
     }
 }
+
+@media(max-width:550px){
+    .rule img{
+        max-width: 40vh;
+    }
+}

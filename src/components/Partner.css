@@ -90,21 +90,17 @@
 }
 
 @media(max-width: 850px){
-    .grid{
+    .partner{
         padding: 50px;
     }
-
-    .grid img{
-        transform: scale(0.6);
+    .partner h3,.partner p{
+        text-align: center;
     }
-    .topgrid{
-        gap: 5px;
+    .partner h3{
+        font-size: 20px;
     }
-    .bottomgrid{
-        gap: 5px;
-    }
-    .lines{
-        gap: 40px;
+    .partner p{
+        font-size: 16px;
     }
    
 }

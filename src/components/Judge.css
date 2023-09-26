@@ -72,3 +72,9 @@
         font-size: 20px;
     }
 }
+
+@media(max-width:550px){
+    .judgeleft img{
+        max-width: 40vh;
+    }
+}

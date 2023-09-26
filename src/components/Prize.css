@@ -104,6 +104,7 @@
 @media(max-width: 850px) {
     .prize {
         padding: 50px;
+        text-align: center;
     }
 
     .prizeTop {
@@ -114,27 +115,22 @@
     .prizeMain {
         flex-direction: column;
         align-items: center;
+        /* justify-content: center; */
     }
-
-    .fst img{
-        width: 125.671px;
-height: 125.671px;
-    }
-
-    .snd img,
-    .trd img{
-        width: 125.671px;
-        height: 125.671px;
-    }
-    .hackPrize div{
-        width: 90.007px;
-    }
-
     .hackPrize{
         align-self: center;
+        transform: scale(0.8);
+        margin-top: 100px;
     }
+
     .prizeTop h3, .prizeTop p{
         text-align: center;
+    }
+    .prizeTop h3{
+        font-size: 20px;
+    }
+    .prizeTop p{
+        font-size: 16px;
     }
 
     .prizeTop p{
@@ -142,5 +138,14 @@ height: 125.671px;
     }
     .prizeImg img{
         max-width: 50vh;
+    }
+}
+
+@media(max-width:550px){
+    .hackPrize{
+        transform: scale(0.6);
+    }
+    .prizeImg img{
+        max-width: 40vh;
     }
 }
